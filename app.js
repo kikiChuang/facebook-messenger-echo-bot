@@ -3,9 +3,9 @@ let bodyParser = require('body-parser')
 let request = require('request')
 let app = express()
 
-const FACEBOOK_ACCESS_TOKEN = 'Your_Facebook_Access_Token'
+const FACEBOOK_ACCESS_TOKEN = 'EAAFsdN2gqPQBAKtPMIE5IsxZAabk7O8oG6AUNqMZBZB3XmY2KrvuFVYa7L2ZCDonTPyu5H4D8VZBNfhibBTubJa3O6yAKJlWqa1ITLXB717vtZB2kDTVW0guXpMkjjLVPeIOnGhBwYpUDfQjljUL210d4n2avg0IefUoZBtETSr5AZDZD'
 const PORT = process.env.PORT || 3000
-const VERIFY_TOKEN = 'Your_Verify_Token'
+const VERIFY_TOKEN = 'chat-bot-class-1021'
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
